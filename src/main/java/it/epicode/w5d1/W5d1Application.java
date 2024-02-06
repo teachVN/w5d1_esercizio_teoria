@@ -1,5 +1,6 @@
 package it.epicode.w5d1;
 
+import it.epicode.w5d1.bean.Auto;
 import it.epicode.w5d1.bean.Persona;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -36,6 +37,8 @@ public class W5d1Application {
 		Persona persona5 = (Persona)ctx.getBean("personaConVeicoli");
 
 		persona5.stampaPersona();
+
+
 
 
 	}

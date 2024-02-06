@@ -35,7 +35,7 @@ public class AppConfig {
         Auto auto = new Auto();
         auto.setNome("Panda");
         auto.setMarca("Fiat");
-        auto.setNumeroPorte(5);
+        //auto.setNumeroPorte(5);
         auto.setNumeroRuote(4);
         return auto;
     }
@@ -45,7 +45,7 @@ public class AppConfig {
         auto.setNumeroRuote(4);
         auto.setNome("Portofino");
         auto.setMarca("Ferrari");
-        auto.setNumeroPorte(3);
+        auto.setNumeroPorte("3");
         return auto;
     }
     @Bean("ninja")
@@ -69,4 +69,6 @@ public class AppConfig {
 
         return persona;
     }
+
+
 }
